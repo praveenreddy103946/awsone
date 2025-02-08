@@ -20,9 +20,9 @@ public class AwsoneApplication {
 
 	@GetMapping("/prawin")
 	public String testaws(){
-		System.out.println("Inside test aws method latest");
-		log.info("checking logs for path /prawin latest");
-		return "application successfully deployed to aws latest";
+		System.out.println("Inside test aws method latest 2");
+		log.info("checking logs for path /prawin latest 2");
+		return "application successfully deployed to aws latest 2";
 
 
 	}
